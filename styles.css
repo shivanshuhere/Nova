@@ -85,6 +85,7 @@ body {
   height: 253px;
   border-radius: 50%;
   object-fit: none;
+  box-shadow: grey 18px 13px 30px 10px;
 }
 
 #hero .btn {
@@ -114,4 +115,100 @@ body {
 #hero .btn2:hover {
   color: white;
   background-color: #213c7b;
+}
+
+/* company section */
+
+#company {
+  background-color: #ffffff;
+  padding: 13vh 0 0 0;
+  border-top: 3px solid #8494b7;
+}
+.compLogo {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.compHeading {
+  font-size: xxx-large;
+  font-weight: 400;
+  color: #213c7b;
+  text-align: center;
+}
+.compLogo img {
+  width: 22%;
+  height: 3rem;
+  padding: 0px 10px;
+}
+
+#company .content {
+  display: flex;
+  width: 100%;
+  height: 20rem;
+  justify-content: center;
+  align-items: center;
+}
+#company .para {
+  width: 20rem;
+  font-size: x-large;
+}
+.compImg {
+  width: 14rem;
+  border: 2px solid #213e62;
+  border-radius: 50%;
+  margin-right: 2rem;
+}
+
+/* About section */
+#about {
+  display: flex;
+  justify-content: center;
+  background-color: #dfe2e9;
+  height: 100vh;
+}
+
+.aboutImg {
+  width: 27rem;
+  height: 28rem;
+}
+.aboutContent {
+  padding: 0 5rem;
+}
+.aboutContent,
+.aboutImg {
+  align-self: center;
+}
+
+.aboutImg {
+  padding: 1rem 0 0 4rem;
+}
+
+.aboutContent h1 {
+  font-size: xxx-large;
+  color: #213c7b;
+  font-weight: 400;
+}
+.aboutContent p {
+  font-size: large;
+  font-weight: 200;
+}
+
+.aboutContent button {
+  width: 9rem;
+  height: 3rem;
+  border-radius: 3px;
+  background-color: #213c7b;
+  border: 2px solid #213c7b;
+  color: white;
+  font-size: medium;
+  margin-top: 2rem;
+}
+
+.aboutContent button:hover {
+  background-color: white;
+  color: #213e62;
+  font-weight: 500;
+  transition: ease-in 1s;
 }
