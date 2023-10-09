@@ -210,5 +210,103 @@ body {
   background-color: white;
   color: #213e62;
   font-weight: 500;
-  transition: ease-in 1s;
+  animation: btn 2s;
+}
+
+@keyframes btn {
+  100%,
+  0% {
+  }
+  50% {
+    transition: ease 1s;
+  }
+}
+
+/* Working */
+#working {
+  width: 100%;
+  background-color: #ffb600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#working .working_context {
+  color: #213c7b;
+}
+
+#working #yellow_box {
+  height: 87vh;
+  width: 94vw;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 10px 8px #757575;
+}
+
+#working .working_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#working .working_img img {
+  width: 18rem;
+  margin-right: 4rem;
+}
+
+#working .working_context {
+  margin-left: 3rem;
+}
+#working .working_context h1 {
+  font-size: xxx-large;
+  font-weight: 400;
+}
+#working .working_context p {
+  font-size: large;
+  font-weight: 500;
+  line-height: 28px;
+  padding-right: 5rem;
+}
+#working .working_context ul {
+  font-size: larger;
+  line-height: 24px;
+}
+
+#working .working_context button {
+  height: 3rem;
+  width: 11rem;
+  padding: 20px, 90px;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  border-radius: 3px;
+  background-color: #213c7b;
+  border: 2px solid #213c7b;
+  color: white;
+  font-size: medium;
+}
+
+#working .working_context button:hover {
+  background-color: white;
+  color: #213e62;
+  font-weight: 500;
+  animation: btn 2s;
+}
+
+#working .working_context ul li {
+  list-style-type: none;
+  font-size: larger;
+  line-height: 30px;
+}
+
+#working .working_context ul li::before {
+  background-image: url(assest/yellow_tick.svg);
+  background-size: 17px 17px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  content: "";
+  margin-right: 10px;
 }
